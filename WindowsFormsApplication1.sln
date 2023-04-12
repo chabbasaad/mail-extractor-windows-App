@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication1", "WindowsFormsApplication1\WindowsFormsApplication1.csproj", "{3336A23A-6F2C-46D4-89FA-93C726CEB23D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication2", "WindowsFormsApplication2\WindowsFormsApplication2.csproj", "{7ED4C3E7-BCB0-4D6B-A811-863F3E598CD6}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "..\..\..\test instal\Setup1\Setup1.vdproj", "{9206CCA5-3D61-4566-AAA7-29268224A141}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3336A23A-6F2C-46D4-89FA-93C726CEB23D}.Debug|x86.ActiveCfg = Debug|x86
+		{3336A23A-6F2C-46D4-89FA-93C726CEB23D}.Debug|x86.Build.0 = Debug|x86
+		{3336A23A-6F2C-46D4-89FA-93C726CEB23D}.Release|x86.ActiveCfg = Release|x86
+		{3336A23A-6F2C-46D4-89FA-93C726CEB23D}.Release|x86.Build.0 = Release|x86
+		{7ED4C3E7-BCB0-4D6B-A811-863F3E598CD6}.Debug|x86.ActiveCfg = Debug|x86
+		{7ED4C3E7-BCB0-4D6B-A811-863F3E598CD6}.Debug|x86.Build.0 = Debug|x86
+		{7ED4C3E7-BCB0-4D6B-A811-863F3E598CD6}.Release|x86.ActiveCfg = Release|x86
+		{7ED4C3E7-BCB0-4D6B-A811-863F3E598CD6}.Release|x86.Build.0 = Release|x86
+		{9206CCA5-3D61-4566-AAA7-29268224A141}.Debug|x86.ActiveCfg = Debug
+		{9206CCA5-3D61-4566-AAA7-29268224A141}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

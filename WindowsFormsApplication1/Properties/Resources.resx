@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="copy2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\copy1.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="united_kingdom_great_britain3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\united_kingdom_great_britain1.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="save (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>save (1).ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="copy1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\copy.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit_clear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>edit_clear.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-slide-up-482" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-slide-up-481.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inbox (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>inbox (1).ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folder_open2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder_open1.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="australia1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\australia.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Oxygen-Icons1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Oxygen-Icons.org-Oxygen-Actions-media-playback-start.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="save" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>save.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1461730489_EditDocument4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1461730489_EditDocument2.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Iconstoc-Ms-Office-2013-Outlook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Iconstoc-Ms-Office-2013-Outlook.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-slide-up-40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons8-slide-up-40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1461730489_EditDocument2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1461730489_EditDocument.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-up-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-up-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="united_kingdom_great_britain2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\united_kingdom_great_britain.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit_clear2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit_clear.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folder_open1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder_open.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-microsoft-outlook-481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-microsoft-outlook-481.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit_clear1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>edit_clear.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_web_address_40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons8-web-address-40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icons8-Windows-8-Editing-Compare" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Icons8-Windows-8-Editing-Compare.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1461730489_EditDocument" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>1461730489_EditDocument.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Oxygen-Icons.org-Oxygen-Actions-media-playback-start" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Oxygen-Icons.org-Oxygen-Actions-media-playback-start.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mail_move1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>mail_move.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="united_states_of_america_usa1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\united_states_of_america_usa.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-slide-up-481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-slide-up-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Oxygen-Icons3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Oxygen-Icons.org-Oxygen-Actions-media-playback-start.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-microsoft-outlook-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-microsoft-outlook-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-web-address-404" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-web-address-404.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-microsoft-outlook-483" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-microsoft-outlook-483.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icons8-Windows-8-Editing-Compare1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icons8-Windows-8-Editing-Compare.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit_clear5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit_clear3.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="australia2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\australia1.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="script_code" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>script_code.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-microsoft-outlook-482" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-microsoft-outlook-482.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>aol.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Oxygen-Icons4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Oxygen-Icons.org-Oxygen-Actions-media-playback-start1.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Oxygen-Icons.org-Oxygen-Actions-media-playback-start2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Oxygen-Icons.org-Oxygen-Actions-media-playback-start2.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1461730489_EditDocument1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>1461730489_EditDocument.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Oxygen-Icons5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Oxygen-Icons.org-Oxygen-Actions-media-playback-start2.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="move_waiting_up_grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>move_waiting_up_grey.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="script_code_red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>script_code_red.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-microsoft-outlook-484" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-microsoft-outlook-484.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archive_extract3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archive_extract2.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-individual-server-321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-individual-server-321.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inbox3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inbox2.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="move-up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>move-up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folder_open_go1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder_open_go.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folder_open_go" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>folder_open_go.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1461730065_txts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>1461730065_txts.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-individual-server-322" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-individual-server-322.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>copy.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="united_states_of_america_usa2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\united_states_of_america_usa1.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="applications_development" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>applications_development.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="copy5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\copy4.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit_clear4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit_clear2.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inbox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>inbox.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-slide-up-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>icons8-slide-up-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="agt_add_to_desktop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>agt_add_to_desktop.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Iconstoc-Ms-Office-2013-Outlook1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iconstoc-Ms-Office-2013-Outlook.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1461730489_EditDocument5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1461730489_EditDocument3.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icons8-Windows-8-Editing-Compare2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icons8-Windows-8-Editing-Compare1.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inbox1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inbox.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1461730489_EditDocument3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1461730489_EditDocument1.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inbox2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inbox1.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-web-address-402" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-web-address-402.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit_clear7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit_clear5.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gnome_edit_clear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>gnome_edit_clear.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-web-address-401" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-web-address-401.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-web-address-403" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-web-address-403.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-web-address-40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-web-address-40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit_clear3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit_clear1.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mail_move" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>mail_move.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folder_open" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>folder_open.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="united_kingdom_great_britain1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>united_kingdom_great_britain.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="copy3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\copy2.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="morocco2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\morocco1.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archive_extract" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>archive_extract.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="morocco1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\morocco.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-slide-up-402" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-slide-up-401.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="move_waiting_up_alternative" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>move_waiting_up_alternative.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="united_states_of_america_usa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>united_states_of_america_usa.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-slide-up-401" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-slide-up-40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit_clear6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit_clear4.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-microsoft-outlook-485" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-microsoft-outlook-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Oxygen-Icons2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Oxygen-Icons.org-Oxygen-Actions-media-playback-start.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mail_move2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mail_move.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="morocco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>morocco.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archive_extract2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archive_extract1.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="copy4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\copy3.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archive_extract1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archive_extract.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-gmail-login-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-gmail-login-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-individual-server-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-individual-server-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="australia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>australia.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folder_developer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>folder_developer.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stats-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stats-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="united_kingdom_great_britain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>united_kingdom_great_britain.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-wipes-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-wipes-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
