@@ -9,8 +9,8 @@ Other features of the application include the ability to compose and send emails
 Overall, this application is a powerful tool for managing email that can help users save time and increase productivity
 
 
-![photo_2023-04-12_15-22-12](https://user-images.githubusercontent.com/10164616/231504890-8561ad6c-0b20-4abb-8b82-ff1b366aa2bd.jpg)
 ![photo_2023-04-12_15-22-17](https://user-images.githubusercontent.com/10164616/231504897-f144435f-cec8-440c-bc79-fbe8263ce64b.jpg)
 ![photo_2023-04-12_15-22-22](https://user-images.githubusercontent.com/10164616/231504901-401376a1-18fd-4c63-928e-4b57a69609ad.jpg)
 ![photo_2023-04-12_15-22-27](https://user-images.githubusercontent.com/10164616/231504903-912cf47f-6920-4ff9-b5fe-3401533dac44.jpg)
 ![photo_2023-04-12_15-22-00](https://user-images.githubusercontent.com/10164616/231504904-fb9e62bf-7944-4f76-86c5-5667ded8c97d.jpg)
+![new](https://user-images.githubusercontent.com/10164616/231507270-a252fb30-17ed-4024-94bc-f664d2f88603.jpg)
